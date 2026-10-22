@@ -1,0 +1,163 @@
+
+> roster-reconciler@0.1.0 demo
+> node scripts/demo.js
+
+
+===== 1. generate fixtures (seed 7) =====
+Generated fixtures (seed 7) in data/fixtures
+  roster: 125 rows
+  field-app: 104 accounts
+  store-assignments: 80 rows
+  time-off: 10 rows
+  groups: 14 groups
+
+
+===== 2. dry run =====
+Week: 2026-W02
+
+Planned actions: 63
+Quarantined roster rows: 5
+Held actions: 53
+Data issues: 0
+
+Plan summary:
+  system             actions  held
+  field-app          18       19  
+  groups             18       34  
+  store-assignments  16       0   
+  time-off           11       0   
+  TOTAL              63       53  
+
+Full plan written to out/plan.json
+
+Quarantined roster rows (5):
+  - row 120 (employee_id: E1120): missing-email
+  - row 121 (employee_id: E1118): duplicate-employee-id
+  - row 122 (employee_id: E1121): unknown-region
+  - row 123 (employee_id: E1122): unknown-role
+  - row 124 (employee_id: n/a): missing-employee-id
+
+Data issues (0):
+  (none)
+
+Held actions (53):
+  pending-2fa (38):
+    - field-app/E1004 activate-account
+    - field-app/E1005 activate-account
+    - field-app/E1007 activate-account
+    - field-app/E1010 activate-account
+    - field-app/E1013 activate-account
+  ... and 33 more (see out/plan.json)
+  needs-confirmation (15):
+    - groups/rep-north:xandi.underhay@example.com remove-member
+    - groups/rep-north:arden.bowen@example.com remove-member
+    - groups/rep-north:maren.faulk@example.com remove-member
+    - groups/lead-north:maren.yarnell@example.com remove-member
+    - groups/lead-north:garnet.ibarra@example.com remove-member
+  ... and 10 more (see out/plan.json)
+
+Dry run only -- nothing was written. Full plan: out/plan.json
+Pass --apply --approver <email> to apply.
+
+
+===== 3. apply =====
+Week: 2026-W02
+
+Planned actions: 63
+Quarantined roster rows: 5
+Held actions: 53
+Data issues: 0
+
+Plan summary:
+  system             actions  held
+  field-app          18       19  
+  groups             18       34  
+  store-assignments  16       0   
+  time-off           11       0   
+  TOTAL              63       53  
+
+Full plan written to out/plan.json
+
+Quarantined roster rows (5):
+  - row 120 (employee_id: E1120): missing-email
+  - row 121 (employee_id: E1118): duplicate-employee-id
+  - row 122 (employee_id: E1121): unknown-region
+  - row 123 (employee_id: E1122): unknown-role
+  - row 124 (employee_id: n/a): missing-employee-id
+
+Data issues (0):
+  (none)
+
+Held actions (53):
+  pending-2fa (38):
+    - field-app/E1004 activate-account
+    - field-app/E1005 activate-account
+    - field-app/E1007 activate-account
+    - field-app/E1010 activate-account
+    - field-app/E1013 activate-account
+  ... and 33 more (see out/plan.json)
+  needs-confirmation (15):
+    - groups/rep-north:xandi.underhay@example.com remove-member
+    - groups/rep-north:arden.bowen@example.com remove-member
+    - groups/rep-north:maren.faulk@example.com remove-member
+    - groups/lead-north:maren.yarnell@example.com remove-member
+    - groups/lead-north:garnet.ibarra@example.com remove-member
+  ... and 10 more (see out/plan.json)
+
+Applied 63 actions as ops-lead@example.com.
+
+
+===== 4. apply again (should be a no-op) =====
+Week: 2026-W02
+
+Planned actions: 0
+Quarantined roster rows: 5
+Held actions: 53
+Data issues: 0
+
+Plan summary:
+  system     actions  held
+  field-app  0        19  
+  groups     0        34  
+  TOTAL      0        53  
+
+Full plan written to out/plan.json
+
+Quarantined roster rows (5):
+  - row 120 (employee_id: E1120): missing-email
+  - row 121 (employee_id: E1118): duplicate-employee-id
+  - row 122 (employee_id: E1121): unknown-region
+  - row 123 (employee_id: E1122): unknown-role
+  - row 124 (employee_id: n/a): missing-employee-id
+
+Data issues (0):
+  (none)
+
+Held actions (53):
+  pending-2fa (38):
+    - field-app/E1004 activate-account
+    - field-app/E1005 activate-account
+    - field-app/E1007 activate-account
+    - field-app/E1010 activate-account
+    - field-app/E1013 activate-account
+  ... and 33 more (see out/plan.json)
+  needs-confirmation (15):
+    - groups/rep-north:xandi.underhay@example.com remove-member
+    - groups/rep-north:arden.bowen@example.com remove-member
+    - groups/rep-north:maren.faulk@example.com remove-member
+    - groups/lead-north:maren.yarnell@example.com remove-member
+    - groups/lead-north:garnet.ibarra@example.com remove-member
+  ... and 10 more (see out/plan.json)
+
+Applied 0 actions as ops-lead@example.com.
+
+
+===== Summary =====
+Planned actions (dry run):   63
+Quarantined roster rows:     5
+Held actions (gated):        53
+Data issues:                 0
+Applied on first --apply:    63
+Applied on second --apply:   0 (expect 0 -- idempotent re-run)
+
+Full plan (dry-run snapshot): docs/sample-output/plan.json

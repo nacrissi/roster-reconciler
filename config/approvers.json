@@ -1,0 +1,6 @@
+{
+  "allowlist": [
+    "ops-lead@example.com",
+    "it-admin@example.com"
+  ]
+}

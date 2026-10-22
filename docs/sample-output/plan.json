@@ -1,0 +1,1808 @@
+{
+  "week": "2026-W02",
+  "actions": [
+    {
+      "key": "field-app:E1011:deactivate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1011",
+      "verb": "deactivate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": true,
+        "role": "rep"
+      },
+      "after": {
+        "active": false,
+        "role": "rep"
+      },
+      "reason": "offboarded",
+      "email": "dessa.morrow@example.com"
+    },
+    {
+      "key": "field-app:E1012:deactivate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1012",
+      "verb": "deactivate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": true,
+        "role": "manager"
+      },
+      "after": {
+        "active": false,
+        "role": "manager"
+      },
+      "reason": "leave",
+      "email": "pria.yarnell@example.com"
+    },
+    {
+      "key": "field-app:E1036:deactivate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1036",
+      "verb": "deactivate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": true,
+        "role": "rep"
+      },
+      "after": {
+        "active": false,
+        "role": "rep"
+      },
+      "reason": "leave",
+      "email": "soren.oakwell@example.com"
+    },
+    {
+      "key": "field-app:E1046:deactivate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1046",
+      "verb": "deactivate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": true,
+        "role": "rep"
+      },
+      "after": {
+        "active": false,
+        "role": "rep"
+      },
+      "reason": "leave",
+      "email": "vace.albright2@example.com"
+    },
+    {
+      "key": "field-app:E1048:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1048",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "soren.granger@example.com",
+        "active": true,
+        "role": "rep"
+      },
+      "email": "soren.granger@example.com"
+    },
+    {
+      "key": "field-app:E1049:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1049",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "uma.deming@example.com",
+        "active": true,
+        "role": "lead"
+      },
+      "email": "uma.deming@example.com"
+    },
+    {
+      "key": "field-app:E1054:deactivate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1054",
+      "verb": "deactivate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": true,
+        "role": "lead"
+      },
+      "after": {
+        "active": false,
+        "role": "lead"
+      },
+      "reason": "leave",
+      "email": "vace.underhay@example.com"
+    },
+    {
+      "key": "field-app:E1067:deactivate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1067",
+      "verb": "deactivate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": true,
+        "role": "lead"
+      },
+      "after": {
+        "active": false,
+        "role": "lead"
+      },
+      "reason": "leave",
+      "email": "pria.quintrell@example.com"
+    },
+    {
+      "key": "field-app:E1068:deactivate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1068",
+      "verb": "deactivate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": true,
+        "role": "rep"
+      },
+      "after": {
+        "active": false,
+        "role": "rep"
+      },
+      "reason": "offboarded",
+      "email": "rasa.prentiss@example.com"
+    },
+    {
+      "key": "field-app:E1069:deactivate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1069",
+      "verb": "deactivate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": true,
+        "role": "lead"
+      },
+      "after": {
+        "active": false,
+        "role": "lead"
+      },
+      "reason": "leave",
+      "email": "xandi.albright@example.com"
+    },
+    {
+      "key": "field-app:E1078:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1078",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "dessa.kestrel@example.com",
+        "active": true,
+        "role": "rep"
+      },
+      "email": "dessa.kestrel@example.com"
+    },
+    {
+      "key": "field-app:E1085:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1085",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "enzo.quintrell@example.com",
+        "active": true,
+        "role": "lead"
+      },
+      "email": "enzo.quintrell@example.com"
+    },
+    {
+      "key": "field-app:E1091:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1091",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "lior.wraye@example.com",
+        "active": true,
+        "role": "manager"
+      },
+      "email": "lior.wraye@example.com"
+    },
+    {
+      "key": "field-app:E1100:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1100",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "xandi.bowen@example.com",
+        "active": true,
+        "role": "rep"
+      },
+      "email": "xandi.bowen@example.com"
+    },
+    {
+      "key": "field-app:E1106:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1106",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "garnet.vesper@example.com",
+        "active": true,
+        "role": "lead"
+      },
+      "email": "garnet.vesper@example.com"
+    },
+    {
+      "key": "field-app:E1108:deactivate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1108",
+      "verb": "deactivate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": true,
+        "role": "rep"
+      },
+      "after": {
+        "active": false,
+        "role": "rep"
+      },
+      "reason": "offboarded",
+      "email": "ina.morrow@example.com"
+    },
+    {
+      "key": "field-app:E1113:deactivate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1113",
+      "verb": "deactivate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": true,
+        "role": "rep"
+      },
+      "after": {
+        "active": false,
+        "role": "rep"
+      },
+      "reason": "leave",
+      "email": "garnet.oakwell@example.com"
+    },
+    {
+      "key": "field-app:E1114:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1114",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "wrenna.wraye@example.com",
+        "active": true,
+        "role": "lead"
+      },
+      "email": "wrenna.wraye@example.com"
+    },
+    {
+      "key": "store-assignments:E1009:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1009",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-6069"
+        ],
+        "region": "east"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "east"
+      },
+      "reason": "region-change"
+    },
+    {
+      "key": "store-assignments:E1011:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1011",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-4774"
+        ],
+        "region": "central"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "central"
+      },
+      "reason": "offboarded"
+    },
+    {
+      "key": "store-assignments:E1015:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1015",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-5805",
+          "S-5618",
+          "S-2645"
+        ],
+        "region": "north"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "north"
+      },
+      "reason": "offboarded"
+    },
+    {
+      "key": "store-assignments:E1023:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1023",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-3050",
+          "S-4717",
+          "S-8415"
+        ],
+        "region": "central"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "central"
+      },
+      "reason": "offboarded"
+    },
+    {
+      "key": "store-assignments:E1037:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1037",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-9228",
+          "S-9580",
+          "S-2330"
+        ],
+        "region": "south"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "south"
+      },
+      "reason": "region-change"
+    },
+    {
+      "key": "store-assignments:E1045:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1045",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-1752",
+          "S-5605",
+          "S-3727"
+        ],
+        "region": "central"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "central"
+      },
+      "reason": "region-change"
+    },
+    {
+      "key": "store-assignments:E1050:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1050",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-1198"
+        ],
+        "region": "central"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "central"
+      },
+      "reason": "offboarded"
+    },
+    {
+      "key": "store-assignments:E1052:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1052",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-6750"
+        ],
+        "region": "north"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "north"
+      },
+      "reason": "region-change"
+    },
+    {
+      "key": "store-assignments:E1058:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1058",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-6792",
+          "S-7715",
+          "S-5905"
+        ],
+        "region": "central"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "central"
+      },
+      "reason": "region-change"
+    },
+    {
+      "key": "store-assignments:E1068:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1068",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-7442",
+          "S-5704",
+          "S-6514"
+        ],
+        "region": "south"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "south"
+      },
+      "reason": "offboarded"
+    },
+    {
+      "key": "store-assignments:E1078:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1078",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-2415"
+        ],
+        "region": "south"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "south"
+      },
+      "reason": "region-change"
+    },
+    {
+      "key": "store-assignments:E1083:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1083",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-4037"
+        ],
+        "region": "west"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "west"
+      },
+      "reason": "offboarded"
+    },
+    {
+      "key": "store-assignments:E1104:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1104",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-2889",
+          "S-7011",
+          "S-2278"
+        ],
+        "region": "north"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "north"
+      },
+      "reason": "offboarded"
+    },
+    {
+      "key": "store-assignments:E1107:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1107",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-5039",
+          "S-6788"
+        ],
+        "region": "south"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "south"
+      },
+      "reason": "region-change"
+    },
+    {
+      "key": "store-assignments:E1108:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1108",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-5828"
+        ],
+        "region": "west"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "west"
+      },
+      "reason": "offboarded"
+    },
+    {
+      "key": "store-assignments:E1116:revoke-stores:2026-W02",
+      "system": "store-assignments",
+      "subject": "E1116",
+      "verb": "revoke-stores",
+      "week": "2026-W02",
+      "before": {
+        "store_ids": [
+          "S-5926"
+        ],
+        "region": "central"
+      },
+      "after": {
+        "store_ids": [],
+        "region": "central"
+      },
+      "reason": "offboarded"
+    },
+    {
+      "key": "time-off:E1036:mark-leave:2026-W02",
+      "system": "time-off",
+      "subject": "E1036",
+      "verb": "mark-leave",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": false
+      },
+      "after": {
+        "on_leave": true
+      }
+    },
+    {
+      "key": "time-off:E1046:mark-leave:2026-W02",
+      "system": "time-off",
+      "subject": "E1046",
+      "verb": "mark-leave",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": false
+      },
+      "after": {
+        "on_leave": true
+      }
+    },
+    {
+      "key": "time-off:E1048:mark-returned:2026-W02",
+      "system": "time-off",
+      "subject": "E1048",
+      "verb": "mark-returned",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": true
+      },
+      "after": {
+        "on_leave": false
+      }
+    },
+    {
+      "key": "time-off:E1054:mark-leave:2026-W02",
+      "system": "time-off",
+      "subject": "E1054",
+      "verb": "mark-leave",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": false
+      },
+      "after": {
+        "on_leave": true
+      }
+    },
+    {
+      "key": "time-off:E1065:mark-leave:2026-W02",
+      "system": "time-off",
+      "subject": "E1065",
+      "verb": "mark-leave",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": false
+      },
+      "after": {
+        "on_leave": true
+      }
+    },
+    {
+      "key": "time-off:E1069:mark-leave:2026-W02",
+      "system": "time-off",
+      "subject": "E1069",
+      "verb": "mark-leave",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": false
+      },
+      "after": {
+        "on_leave": true
+      }
+    },
+    {
+      "key": "time-off:E1071:mark-returned:2026-W02",
+      "system": "time-off",
+      "subject": "E1071",
+      "verb": "mark-returned",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": true
+      },
+      "after": {
+        "on_leave": false
+      }
+    },
+    {
+      "key": "time-off:E1075:mark-returned:2026-W02",
+      "system": "time-off",
+      "subject": "E1075",
+      "verb": "mark-returned",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": true
+      },
+      "after": {
+        "on_leave": false
+      }
+    },
+    {
+      "key": "time-off:E1094:mark-returned:2026-W02",
+      "system": "time-off",
+      "subject": "E1094",
+      "verb": "mark-returned",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": true
+      },
+      "after": {
+        "on_leave": false
+      }
+    },
+    {
+      "key": "time-off:E1097:mark-returned:2026-W02",
+      "system": "time-off",
+      "subject": "E1097",
+      "verb": "mark-returned",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": true
+      },
+      "after": {
+        "on_leave": false
+      }
+    },
+    {
+      "key": "time-off:E1117:mark-leave:2026-W02",
+      "system": "time-off",
+      "subject": "E1117",
+      "verb": "mark-leave",
+      "week": "2026-W02",
+      "before": {
+        "on_leave": false
+      },
+      "after": {
+        "on_leave": true
+      }
+    },
+    {
+      "key": "groups:rep-south:lior.haldane@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-south:lior.haldane@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "rep-south",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "no-longer-eligible",
+      "email": "lior.haldane@example.com"
+    },
+    {
+      "key": "groups:rep-east:hollis.torvald@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-east:hollis.torvald@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "rep-east",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "no-longer-eligible",
+      "email": "hollis.torvald@example.com"
+    },
+    {
+      "key": "groups:rep-east:cael.ibarra@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-east:cael.ibarra@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "rep-east",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "no-longer-eligible",
+      "email": "cael.ibarra@example.com"
+    },
+    {
+      "key": "groups:rep-west:ina.wraye@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-west:ina.wraye@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "rep-west",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "no-longer-eligible",
+      "email": "ina.wraye@example.com"
+    },
+    {
+      "key": "groups:rep-central:idless.person@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-central:idless.person@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "rep-central",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "no-longer-eligible",
+      "email": "idless.person@example.com"
+    },
+    {
+      "key": "groups:rep-central:hollis.nesbit@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-central:hollis.nesbit@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "rep-central",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "no-longer-eligible",
+      "email": "hollis.nesbit@example.com"
+    },
+    {
+      "key": "groups:lead-south:osric.yarnell@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-south:osric.yarnell@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "lead-south",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "no-longer-eligible",
+      "email": "osric.yarnell@example.com"
+    },
+    {
+      "key": "groups:lead-east:garnet.vesper@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-east:garnet.vesper@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "lead-east",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "no-longer-eligible",
+      "email": "garnet.vesper@example.com"
+    },
+    {
+      "key": "groups:rep-west:maren.faulk@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-west:maren.faulk@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-west",
+        "role": "member"
+      },
+      "email": "maren.faulk@example.com"
+    },
+    {
+      "key": "groups:rep-south:soren.quintrell@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-south:soren.quintrell@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-south",
+        "role": "member"
+      },
+      "email": "soren.quintrell@example.com"
+    },
+    {
+      "key": "groups:rep-east:uma.underhay@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-east:uma.underhay@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-east",
+        "role": "member"
+      },
+      "email": "uma.underhay@example.com"
+    },
+    {
+      "key": "groups:rep-north:soren.granger@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-north:soren.granger@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-north",
+        "role": "member"
+      },
+      "email": "soren.granger@example.com"
+    },
+    {
+      "key": "groups:lead-west:enzo.haldane@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-west:enzo.haldane@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "lead-west",
+        "role": "member"
+      },
+      "email": "enzo.haldane@example.com"
+    },
+    {
+      "key": "groups:manager-west:vace.torvald1@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "manager-west:vace.torvald1@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "manager-west",
+        "role": "member"
+      },
+      "email": "vace.torvald1@example.com"
+    },
+    {
+      "key": "groups:rep-west:xandi.elsworth@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-west:xandi.elsworth@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-west",
+        "role": "member"
+      },
+      "email": "xandi.elsworth@example.com"
+    },
+    {
+      "key": "groups:rep-north:xandi.bowen@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-north:xandi.bowen@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-north",
+        "role": "member"
+      },
+      "email": "xandi.bowen@example.com"
+    },
+    {
+      "key": "groups:lead-central:garnet.vesper@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-central:garnet.vesper@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "lead-central",
+        "role": "member"
+      },
+      "email": "garnet.vesper@example.com"
+    },
+    {
+      "key": "groups:lead-south:noor.ravelle@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-south:noor.ravelle@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "lead-south",
+        "role": "member"
+      },
+      "email": "noor.ravelle@example.com"
+    }
+  ],
+  "quarantined": [
+    {
+      "index": 120,
+      "employee_id": "E1120",
+      "reasons": [
+        "missing-email"
+      ]
+    },
+    {
+      "index": 121,
+      "employee_id": "E1118",
+      "reasons": [
+        "duplicate-employee-id"
+      ]
+    },
+    {
+      "index": 122,
+      "employee_id": "E1121",
+      "reasons": [
+        "unknown-region"
+      ]
+    },
+    {
+      "index": 123,
+      "employee_id": "E1122",
+      "reasons": [
+        "unknown-role"
+      ]
+    },
+    {
+      "index": 124,
+      "employee_id": null,
+      "reasons": [
+        "missing-employee-id"
+      ]
+    }
+  ],
+  "held": [
+    {
+      "key": "field-app:E1004:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1004",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "enzo.granger@example.com"
+    },
+    {
+      "key": "field-app:E1005:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1005",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "osric.oakwell@example.com"
+    },
+    {
+      "key": "field-app:E1007:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1007",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "cael.stanwick@example.com"
+    },
+    {
+      "key": "field-app:E1010:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1010",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "rasa.wraye@example.com"
+    },
+    {
+      "key": "field-app:E1013:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1013",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "lead"
+      },
+      "after": {
+        "active": true,
+        "role": "lead"
+      },
+      "reason": "pending-2fa",
+      "email": "noor.haldane@example.com"
+    },
+    {
+      "key": "field-app:E1016:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1016",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "quinley.albright@example.com"
+    },
+    {
+      "key": "field-app:E1017:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1017",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "hollis.yarnell1@example.com"
+    },
+    {
+      "key": "field-app:E1019:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1019",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "lead"
+      },
+      "after": {
+        "active": true,
+        "role": "lead"
+      },
+      "reason": "pending-2fa",
+      "email": "fira.torvald@example.com"
+    },
+    {
+      "key": "field-app:E1027:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1027",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "lead"
+      },
+      "after": {
+        "active": true,
+        "role": "lead"
+      },
+      "reason": "pending-2fa",
+      "email": "vace.torvald@example.com"
+    },
+    {
+      "key": "field-app:E1028:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1028",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "garnet.ibarra@example.com",
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "garnet.ibarra@example.com"
+    },
+    {
+      "key": "field-app:E1029:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1029",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "osric.kestrel@example.com",
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "osric.kestrel@example.com"
+    },
+    {
+      "key": "field-app:E1034:create-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1034",
+      "verb": "create-account",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "email": "yusra.stanwick@example.com",
+        "active": true,
+        "role": "lead"
+      },
+      "reason": "pending-2fa",
+      "email": "yusra.stanwick@example.com"
+    },
+    {
+      "key": "field-app:E1037:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1037",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "dessa.ravelle@example.com"
+    },
+    {
+      "key": "field-app:E1047:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1047",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "vace.prentiss@example.com"
+    },
+    {
+      "key": "field-app:E1063:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1063",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "arden.larkspur@example.com"
+    },
+    {
+      "key": "field-app:E1072:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1072",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "arden.ravelle@example.com"
+    },
+    {
+      "key": "field-app:E1079:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1079",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "rep"
+      },
+      "after": {
+        "active": true,
+        "role": "rep"
+      },
+      "reason": "pending-2fa",
+      "email": "lior.haldane@example.com"
+    },
+    {
+      "key": "field-app:E1080:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1080",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "manager"
+      },
+      "after": {
+        "active": true,
+        "role": "manager"
+      },
+      "reason": "pending-2fa",
+      "email": "osric.ravelle@example.com"
+    },
+    {
+      "key": "field-app:E1101:activate-account:2026-W02",
+      "system": "field-app",
+      "subject": "E1101",
+      "verb": "activate-account",
+      "week": "2026-W02",
+      "before": {
+        "active": false,
+        "role": "lead"
+      },
+      "after": {
+        "active": true,
+        "role": "lead"
+      },
+      "reason": "pending-2fa",
+      "email": "yusra.bowen@example.com"
+    },
+    {
+      "key": "groups:rep-north:xandi.underhay@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-north:xandi.underhay@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "rep-north",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "xandi.underhay@example.com"
+    },
+    {
+      "key": "groups:rep-north:arden.bowen@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-north:arden.bowen@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "rep-north",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "arden.bowen@example.com"
+    },
+    {
+      "key": "groups:rep-north:maren.faulk@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-north:maren.faulk@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "rep-north",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "maren.faulk@example.com"
+    },
+    {
+      "key": "groups:lead-north:maren.yarnell@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-north:maren.yarnell@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "lead-north",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "maren.yarnell@example.com"
+    },
+    {
+      "key": "groups:lead-north:garnet.ibarra@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-north:garnet.ibarra@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "lead-north",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "garnet.ibarra@example.com"
+    },
+    {
+      "key": "groups:lead-west:bryn.jessop@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-west:bryn.jessop@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "lead-west",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "bryn.jessop@example.com"
+    },
+    {
+      "key": "groups:lead-central:fira.torvald@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-central:fira.torvald@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "lead-central",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "fira.torvald@example.com"
+    },
+    {
+      "key": "groups:lead-central:dessa.kestrel@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-central:dessa.kestrel@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "lead-central",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "dessa.kestrel@example.com"
+    },
+    {
+      "key": "groups:manager-north:dessa.nesbit@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "manager-north:dessa.nesbit@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "manager-north",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "dessa.nesbit@example.com"
+    },
+    {
+      "key": "groups:manager-north:pria.quintrell@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "manager-north:pria.quintrell@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "manager-north",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "pria.quintrell@example.com"
+    },
+    {
+      "key": "groups:manager-east:osric.stanwick@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "manager-east:osric.stanwick@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "manager-east",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "osric.stanwick@example.com"
+    },
+    {
+      "key": "groups:manager-east:yusra.quintrell@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "manager-east:yusra.quintrell@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "manager-east",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "yusra.quintrell@example.com"
+    },
+    {
+      "key": "groups:manager-west:osric.kestrel@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "manager-west:osric.kestrel@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "manager-west",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "osric.kestrel@example.com"
+    },
+    {
+      "key": "groups:manager-central:dup.e1118@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "manager-central:dup.e1118@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "manager-central",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "dup.e1118@example.com"
+    },
+    {
+      "key": "groups:manager-central:xandi.elsworth@example.com:remove-member:2026-W02",
+      "system": "groups",
+      "subject": "manager-central:xandi.elsworth@example.com",
+      "verb": "remove-member",
+      "week": "2026-W02",
+      "before": {
+        "group_id": "manager-central",
+        "role": "member"
+      },
+      "after": null,
+      "reason": "needs-confirmation",
+      "email": "xandi.elsworth@example.com"
+    },
+    {
+      "key": "groups:rep-west:enzo.granger@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-west:enzo.granger@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-west",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "enzo.granger@example.com"
+    },
+    {
+      "key": "groups:rep-central:osric.oakwell@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-central:osric.oakwell@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-central",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "osric.oakwell@example.com"
+    },
+    {
+      "key": "groups:rep-east:cael.stanwick@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-east:cael.stanwick@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-east",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "cael.stanwick@example.com"
+    },
+    {
+      "key": "groups:rep-central:rasa.wraye@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-central:rasa.wraye@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-central",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "rasa.wraye@example.com"
+    },
+    {
+      "key": "groups:lead-east:noor.haldane@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-east:noor.haldane@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "lead-east",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "noor.haldane@example.com"
+    },
+    {
+      "key": "groups:rep-east:quinley.albright@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-east:quinley.albright@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-east",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "quinley.albright@example.com"
+    },
+    {
+      "key": "groups:rep-central:hollis.yarnell1@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-central:hollis.yarnell1@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-central",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "hollis.yarnell1@example.com"
+    },
+    {
+      "key": "groups:lead-west:fira.torvald@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-west:fira.torvald@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "lead-west",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "fira.torvald@example.com"
+    },
+    {
+      "key": "groups:lead-east:vace.torvald@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-east:vace.torvald@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "lead-east",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "vace.torvald@example.com"
+    },
+    {
+      "key": "groups:rep-central:garnet.ibarra@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-central:garnet.ibarra@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-central",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "garnet.ibarra@example.com"
+    },
+    {
+      "key": "groups:rep-east:osric.kestrel@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-east:osric.kestrel@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-east",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "osric.kestrel@example.com"
+    },
+    {
+      "key": "groups:lead-central:yusra.stanwick@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-central:yusra.stanwick@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "lead-central",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "yusra.stanwick@example.com"
+    },
+    {
+      "key": "groups:rep-east:dessa.ravelle@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-east:dessa.ravelle@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-east",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "dessa.ravelle@example.com"
+    },
+    {
+      "key": "groups:rep-north:vace.prentiss@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-north:vace.prentiss@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-north",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "vace.prentiss@example.com"
+    },
+    {
+      "key": "groups:rep-south:arden.larkspur@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-south:arden.larkspur@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-south",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "arden.larkspur@example.com"
+    },
+    {
+      "key": "groups:rep-central:arden.ravelle@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-central:arden.ravelle@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-central",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "arden.ravelle@example.com"
+    },
+    {
+      "key": "groups:rep-east:lior.haldane@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "rep-east:lior.haldane@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "rep-east",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "lior.haldane@example.com"
+    },
+    {
+      "key": "groups:manager-central:osric.ravelle@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "manager-central:osric.ravelle@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "manager-central",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "osric.ravelle@example.com"
+    },
+    {
+      "key": "groups:lead-central:yusra.bowen@example.com:add-member:2026-W02",
+      "system": "groups",
+      "subject": "lead-central:yusra.bowen@example.com",
+      "verb": "add-member",
+      "week": "2026-W02",
+      "before": null,
+      "after": {
+        "group_id": "lead-central",
+        "role": "member"
+      },
+      "reason": "pending-2fa",
+      "email": "yusra.bowen@example.com"
+    }
+  ],
+  "dataIssues": []
+}

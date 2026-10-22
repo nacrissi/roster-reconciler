@@ -1,0 +1,16 @@
+{
+  "name": "roster-reconciler",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reconciles a source-of-truth roster against four downstream systems, with a 2FA gate, owner protection, a bulk-removal confirmation gate, idempotent re-runs, and an audit log.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "generate": "node scripts/generate-fixtures.js --seed 7",
+    "dry-run": "node bin/reconcile.js --dry-run",
+    "apply": "node bin/reconcile.js --apply --approver ops-lead@example.com",
+    "demo": "node scripts/demo.js",
+    "test": "node --test test/*.test.js"
+  }
+}
